@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Inicio() {
@@ -57,13 +58,18 @@ export default function Inicio() {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full max-w-md">
 
-          <button className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300">
-            Solicitar Asesoría
-          </button>
-
-          <button className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300">
-            Conocer Servicios
-          </button>
+         <Link
+         href="/contacto"
+        className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300 text-center"
+          >
+        Solicitar Asesoría
+        </Link>
+        <Link
+           href="/servicios"
+          className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300 text-center"
+          >
+          Conocer Servicios
+        </Link>
 
         </div>
 
