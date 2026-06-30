@@ -1,14 +1,13 @@
 import BarraNavegacion from "@/componentes/BarraNavegacion";
-import Inicio from "@/componentes/Inicio";
+import SGSST from "@/componentes/SGSST";
 import Footer from "@/componentes/Footer";
 
-
-export default function Home() {
+export default function Page() {
   return (
     <>
       <BarraNavegacion />
-      <Inicio />
-      <Footer />
+      <SGSST />
+       <Footer />
     </>
   );
 }
