@@ -46,15 +46,28 @@ export default function BarraNavegacion() {
             </Link>
           </li>
 
-          <li>
-            <Link
-              href="/nosotros"
-              className="hover:text-white transition"
-            >
-              Nosotros
-            </Link>
-          </li>
+         <li>
+  <Link
+    href="/nosotros"
+    className="hover:text-white transition"
+  >
+    Nosotros
+  </Link>
+</li>
 
+<li>
+  <Link
+    href="/clientes"
+    className="hover:text-white transition"
+  >
+    Clientes
+  </Link>
+</li>
+
+{/* Servicios */}
+
+
+  
           {/* Servicios */}
 
           <li className="relative group">
