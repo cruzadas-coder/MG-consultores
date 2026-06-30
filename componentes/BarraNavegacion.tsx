@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function BarraNavegacion() {
   return (
-    <header className="fixed top-0 left-0 w-full bg-slate-900 shadow-lg z-50">
+<header className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#0B2A5B] via-[#123C78] to-[#0B2A5B] shadow-2xl border-b border-blue-900/40 z-50">
 
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
 

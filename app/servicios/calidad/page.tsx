@@ -1,12 +1,12 @@
 import BarraNavegacion from "@/componentes/BarraNavegacion";
-import Servicios from "@/componentes/Servicios";
+import Calidad from "@/componentes/Calidad";
 import Footer from "@/componentes/Footer";
 
 export default function Page() {
   return (
     <>
       <BarraNavegacion />
-      <Servicios />
+      <Calidad />
       <Footer />
     </>
   );
