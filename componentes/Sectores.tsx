@@ -4,7 +4,7 @@ export default function Sectores() {
   const sectores = [
     { titulo:"Construcción", icono:"/icons/construccion.png", descripcion:"Acompañamos proyectos de construcción e infraestructura con seguridad y calidad."},
     { titulo:"Industria", icono:"/icons/industria.png", descripcion:"Mejoramos procesos industriales con sistemas de gestión eficientes."},
-    { titulo:"Transporte", icono:"/icons/transporte.png", descripcion:"Impulsamos la seguridad vial y la eficiencia operativa."},
+    { titulo:"Transporte", icono:"/icons/Transporte.png", descripcion:"Impulsamos la seguridad vial y la eficiencia operativa."},
     { titulo:"Salud", icono:"/icons/salud.png", descripcion:"Implementamos sistemas para instituciones del sector salud."},
     { titulo:"Energía", icono:"/icons/energia.png", descripcion:"Asesoramos proyectos energéticos y de sostenibilidad."},
     { titulo:"Sector Público", icono:"/icons/sectorpublico.png", descripcion:"Apoyamos entidades públicas en el cumplimiento normativo."},
@@ -45,7 +45,7 @@ export default function Sectores() {
         </div>
 
         <div className="overflow-hidden rounded-3xl shadow-2xl">
-          <Image src="/images/Sectores.png" alt="Sectores" width={1600} height={800} className="w-full object-cover"/>
+          <Image src="/images/sectores.png" alt="Sectores" width={1600} height={800} className="w-full object-cover"/>
           <div className="bg-[#0F223F] grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-white/10">
             {cifras.map((c,i)=>(
               <div key={i} className="p-8 text-center">
