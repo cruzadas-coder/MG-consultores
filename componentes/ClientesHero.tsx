@@ -4,15 +4,14 @@ import Image from "next/image";
 
 export default function ClientesHeroV2() {
   return (
-    <section className="w-full bg-white py-6">
-      <div className="w-full max-w-6xl mx-auto px-4">
+    <section className="w-full pt-20 overflow-hidden">
+      <div className="relative w-full h-[320px] md:h-[420px] lg:h-[500px]">
         <Image
           src="/images/clientes-banner.png"
           alt="Banner Clientes"
-          width={1920}
-          height={700}
+          fill
           priority
-          className="w-full h-auto rounded-2xl shadow-xl"
+          className="object-cover"
         />
       </div>
     </section>

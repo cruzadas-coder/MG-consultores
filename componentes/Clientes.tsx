@@ -6,8 +6,9 @@ export default function Clientes() {
   return (
     <>
       <ClientesHero />
+       <ClientesGaleria />
       <ClientesLogos />
-      <ClientesGaleria />
+     
     </>
   );
 }

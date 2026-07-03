@@ -19,7 +19,7 @@ export default function Calidad() {
             <h3 className="text-3xl font-semibold text-slate-800 mb-6">Sistemas de Gestión de Calidad</h3>
             <p className="text-slate-600 leading-8">Ayudamos a implementar y mantener Sistemas de Gestión de Calidad orientados a mejorar procesos, cumplir requisitos y fortalecer la competitividad.</p>
           </div>
-          <Image src="/images/Calidad.png" alt="Calidad" width={900} height={650} className="w-full rounded-3xl shadow-2xl"/>
+          <Image src="/images/calidad.png" alt="Calidad" width={900} height={650} className="w-full rounded-3xl shadow-2xl"/>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
           {servicios.map((item)=>(
