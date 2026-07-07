@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Martinez Gonzalez Consultores",
+  title: "Martinez Gonzalez Consultores SAS",
   description: "MG-CCONSULTORESS.A.S",
 };
 
