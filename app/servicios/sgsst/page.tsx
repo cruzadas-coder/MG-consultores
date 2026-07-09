@@ -1,13 +1,29 @@
 import BarraNavegacion from "@/componentes/BarraNavegacion";
-import SGSST from "@/componentes/SGSST";
 import Footer from "@/componentes/Footer";
 
-export default function Page() {
+import SgsstHero from "@/componentes/SgsstHero";
+import SgsstServicios from "@/componentes/SgsstServicios";
+import SgsstBeneficios from "@/componentes/SgsstBeneficios";
+import SgsstCTA from "@/componentes/SgsstCTA";
+
+export default function SGSSTPage() {
   return (
     <>
       <BarraNavegacion />
-      <SGSST />
-       <Footer />
+
+      <main className="bg-white">
+
+        <SgsstHero />
+
+        <SgsstServicios />
+
+        <SgsstBeneficios />
+
+        <SgsstCTA />
+
+      </main>
+
+      <Footer />
     </>
   );
 }
