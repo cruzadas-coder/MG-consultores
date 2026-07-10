@@ -58,20 +58,27 @@ export default function Inicio() {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full max-w-md">
 
-         <Link
-         href="/contacto"
-        className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300 text-center"
+          <Link
+            href="/contacto"
+            className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300 text-center"
           >
-        Solicitar Asesoría
-        </Link>
-        <Link
-           href="/servicios"
-          className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300 text-center"
+            Solicitar Asesoría
+          </Link>
+
+          <Link
+            href="/servicios"
+            className="w-full bg-slate-900 hover:bg-blue-900 text-white py-4 rounded-xl font-semibold shadow-xl transition-all duration-300 text-center"
           >
-          Conocer Servicios
-        </Link>
+            Conocer Servicios
+          </Link>
 
         </div>
+
+        {/* Licencia */}
+
+        <p className="mt-10 text-base sm:text-lg text-center text-slate-700 max-w-4xl leading-8">
+          Licencia de Salud Ocupacional • Resolución No. 1033 de 2019 • Secretaría de Salud
+        </p>
 
       </div>
 

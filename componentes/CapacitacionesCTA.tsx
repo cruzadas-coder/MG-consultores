@@ -2,15 +2,15 @@
 
 import Image from "next/image";
 
-export default function CapacitacionesCTA() {
+export default function MedicionCTA() {
   return (
     <section className="relative overflow-hidden">
 
       <Image
-        src="/images/cta-capacitaciones-banner.png"
-        alt="Capacitaciones Empresariales"
+        src="/images/MedicionCTABanner.png"
+        alt="Solicite sus mediciones"
         width={1920}
-        height={700}
+        height={650}
         className="w-full h-auto"
       />
 
